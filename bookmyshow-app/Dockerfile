@@ -24,5 +24,5 @@ ENV NODE_OPTIONS=--openssl-legacy-provider
 ENV PORT=3000
 
 # Start the application
-ENV HOST=0.0.0.0
+
 CMD ["npm", "start"]
